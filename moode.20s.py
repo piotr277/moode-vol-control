@@ -42,7 +42,6 @@ def getIcon(icon):
         result_image = Image.merge('LA', (inverted,a))
         buffer = io.BytesIO()
         result_image.save(buffer, format='png')
-        result_image.save('/tmp/inverted.png', format='png')
         encoded = base64.encodebytes(buffer.getvalue())
         return encoded.decode().replace("\n", "").strip()
     else:
