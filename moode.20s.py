@@ -1,6 +1,6 @@
 #!/usr/local/bin/python3
 # <bitbar.title>Moode audio player volume controller</bitbar.title>
-# <bitbar.version>v1.0</bitbar.version>
+# <bitbar.version>v2.0</bitbar.version>
 # <bitbar.author>Piotr Gołąbek</bitbar.author>
 # <bitbar.author.github>piotr277</bitbar.author.github>
 # <bitbar.desc>This plugin allows volume controlling of local running Moode audio player. For more information about Moode check this: http://moodeaudio.org/</bitbar.desc>
@@ -15,7 +15,7 @@ import os
 # leave as it is if your moode and network supports mDNS or enter direct ip address
 moodeUrl = "http://moode.local"
 # set full path of this script
-scriptFilepath = ""
+scriptFilepath = __file__
 # value for volume incrementation / decrementation
 delta = 3
 
