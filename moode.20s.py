@@ -23,6 +23,8 @@ scriptFilepath = __file__
 delta = 3
 # ui mode: light or dark
 icon_mode = 'light'
+# icon size, -1 to default, set other if you want
+icon_size = -1
 
 icon_online = "iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAQAAABLCVATAAAAAmJLR0QA/4ePzL8AAAAJcEhZcwAAFiUAABYlAUlSJPAAAAAHdElNRQfjCQcKKCCnZ5LwAAAEd0lEQVRIx5VWXWwUVRT+zp2Zndlu92922253t9uytaT/Lf2zEhVsIgrG1DbRRIsaqzUkihFJ0IgIVqMS39AHIxGUhBhMiMKLCSbyoI3Ellq0KRUVRcA20kJbW9ou3T0+7A7702mp9z7szbnnfPPde8757hKWGCwCjbPV82vmg1khwsxf2kV5IHvwdK9vwdyfzIwFeZGdY1tjEWlcPSUP2K8AUx5umG2KeoTF+6HSfWkEtxqlAFzfgfXfGiohb0v7zC5S5Poy/SzY1cdUsjRIHYDCl4gdp/KLAaBrkcfTAIDAKte3xIEdQKUZTDUAx36FA08CVcuyrgcQfExhxyfxE6SNWgCez+WJjTpWOB52yePuY0B55obzoDwBQECAEjO5okRSjFXiVx5zHAZeToKUIPiKwu2utMDMiRSIxHzGrrCvO4XNpAwueBRYxGJZGBBQ1AZ+05Y81o/ukynU43AisRIm4XnJCnQftw9zfBkIgkOFTViGUQqffGE9rfzLgggErEUoQBwoBADkHXH3pFR6GsCd+XXZKeAAger8gtVvkpw8J/QvATxnF1wVWAyjCMDxPrG8x+DjRZsKEAHO18Che41v1+QKbnchp4WmQ/LWVCBBBKryqX1gMN5IplvrU7+PQymj8qVcEQ9aLdGUdwPcO7Tf+ebJXpShPm4Bcu4mBmcCubaA/R0A4OiiaCDLiLINu3fD+UX+AcMQLo6HW6fBSAMqkHMJBGQNUaRRAflWgws6jLjgB7bjIlbq6DUMFz+Nc5u1pVd9jX30SnQPGFC3szSsA6PnCJObjH1PP8rEvKpcMAw3JPO+OjMlD1x7vVMSFPkTIqICgBqLhI398/1zmmBEoyvo0WjyHpkyFVGKkiy0BSm0rFwyUOm80aC/fSAaY0sRYuocwJgTyh+Gy6oq5bpYGJ6qNQy+vWQqxoNTud7ILhAwv5eipVcBXwnD9ZXh8ndZ7Bz0t+xDCaUG0KDA0uTIKdAuwCz9XWD/E0b6gzfT7x5wvwd9I01USIsqG7Z9tAhI61d/AEgAlhH5si9RkLUSruqtuCtHcLXTpNOQ+5CYSQAJCJAsWjQWRIDjVXDwfuNK6+2C1/gBuHryD5u2LNXZLGPubWmqICDqfYItJ5O58X/k/jne/SXE5d4HTfufEc4Ad0vWM8rMIYkIAtiMWp04VAEAeEFYx737zBgtpZZFvqSO576rTXaK7XESG0KCSxvT5B0ZD4AweQ4IqKoR3Jz6JrkPaZMAZapiUnpNgIgAbcz5WQrMAwBsPdovca1JEVYsgkyDsZ619QPrU8s3jKcU+3nrMP7HsA7ZRtot4UxzgB5RbL3aWGUV8OyyAM8DqC61jmT/1KaaOhQDcB6ROKe72bkc0DpH3k7BjqNAeCmXFgDNldo0sf+dO6zrROb+erHW6t9NbLne2ADcc6s/WvdJv9ZeOzYRoHG9z3rU17dpBvy17XLjdOvE7VGv6x9Pa3HfiYUVXOIWAEDFbXpH9n77YNZcFmexbd4+lP2xvrm8BAA6TaL+A1qkORgvHNnaAAAAAElFTkSuQmCC"
 icon_offline = "iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAQAAABLCVATAAAAAmJLR0QA/4ePzL8AAAAJcEhZcwAAFiUAABYlAUlSJPAAAAAHdElNRQfjCQcRHxuWGJdxAAAEQElEQVRIx5WWW2xUVRSG/7XPZc50Ovcpvcx0Cq0jvcyU3q1EU+ChCKQ2baIJSGLES0wQEzVBEmJI6oO++GJ8UAlImqDBpFEuiUl5MEZqCC0VaYVatIkUbMS2tE2hFzuzfJg5nTMzp2Xc+2H2OWuvb6+99l7/GcIajYW/caF6qXYpkBMkPLitjcvXcoev9hesmM8ns5fF+ctHJw/FlqUpy2X5mv0fYM7LDQtNUa9QfZ8qXXcm8KhWDsB1Cez5vSEM+a2UZd4jRa6v8NwEuwaYQmtD6gCUvE3suFxYBgCvZsx4GQDg3+T6kdh/GAibYaoBOI4r7H8RiKwbdT2AwD6FHafiO0hpNQC8X8szuzzIsj3nkqfcZ4HKdIPzC3kGgIAAJXpyRIlD0UeJX3nScRp4NwkJIXBE4U5XimN6hwGR6K/YFS7oMkQzK4OL9wIZURCICJCFGQYEbOwAv29Lbutn9/eG0OM4kRjB0WOG0G+g+5x9hONDfwAcLGmCWURX4OgWbBJP/AlbEfQT+0sAAPln3H2Gm54y3fklWOKMNBsPAN5ez7cADtoFR/yZGBKA/QQ4AcJaGGDLBsGdLuTtoPmgfMgIimcIts/AqyACaaLKxRAEAlq8ySw9LtGcrxXuw9ofiWRBLVHr1Dq1Vq1T6nJPxTE6SFCrog5brjCAQJPE+fuAzoSfbcR9DM5vCk+uZuik7mzsiYigjIHB2mg4LBgMLnlGdwt8YjsnYuWO/qQIrVMTVHCQACyGfh2KAVDvxn7QTd5BVIgli/JndtU1/p3vWUqspvZfDY4v6paxwUVNMKLRrDgESNNCf5iOxJImKUqy0FakYFYgLm24d0lfc2mnNlQs66ZNEeWhWBmZq8kOdPt8DIA6WbqbACyGea9u+qsiNipbr9/XTxHWX3BBd1tujVqMHEGbQ6MjtNBaeeHfgra/z3uP3OluRPyclttyLsKzi2aqJABwpgTwlF0dS72QkthY1GERBAFUbE5eyBoJ0552PJ0nuNqZWSJ26pHVW6sgkaIJKUVSbxdcWwTA1Vd42qxkJfpIWMYMoHj5iHRQ0efuoXj1h4grfW2m9b9H2H4SnPJWGKDYjxoPcbAKAPCmsE75PjYREV1KetewEABs+FCbPSDeiQfRGhRc3pgi76tKIJHhk5AuxIhsEdxs/Ca5u7VZgDI1MHU7Il3NtUnnVwbMHgC2Pu03gChFxGCqi6sY603bILDNeGtK8ZJiH7OO4H806w3bRKdamv7aT88rtn5tMhwBXlsX8AaA6nLrRO71DovphDIAzjMS53U1O9cDtTjyjwp29ACla03ZAaA5rM0TF33wpLVFpNu3ia3WomPE6sPGBmD7o/5o7ZRu1dw/O+OnKc+AtadgYPcD8EXb3cb59pknoj7XPW972UDvShZJfB0AUPWY54Xc4/bhnMUczmHbkv1G7gnP/soQABww8foPneIw6Uqt8W4AAAAASUVORK5CYII="
@@ -32,20 +34,20 @@ icon_pause = "iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAQAAABLCVATAAAAAmJLR0QA/4ePzL8AAA
 icon_play = "iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAQAAABLCVATAAAAAmJLR0QA/4ePzL8AAAAJcEhZcwAAFiUAABYlAUlSJPAAAAAHdElNRQfjCQcRICx2exhCAAADkElEQVRIx5WWT2wUdRTHv+/NTHe2y87+6ZaWbrtAQNLSbmntrrRGpHLAYEIammgiF8SYeDCa6MGYEGNSD3pVL0YPGBOimJCIR2zS+KcR0lIJEiigJFJsQ2ll25TSbnb2edh/s7Ozu+Obw2x+vzef9978vu/tEKqYcDT5uHezf7O9MUZ4dFefU69suXZ5qjXj7E9Oix0t6VNLb2bTyrLnonrF/wBYbZLE46fMJm6IfK6N3VuAGwv+Cgn/meiB+nZZmPdJUwe6wjcgwWmhOpDt75AYF7ftquUT3Rn8hST6bg0X40tNoifcZN1+XBPjqyqbTd+pqSNhuLQXg+py6LzDRuC0mgLAYNBe9Rk/gE9Alit3NLlf+bu6ZJyxp/qeJqPBwkMdnFMAxjXFAioh8tdrfk1axyyYFRXS8TIAAoNAKuVBgjmDq2FAwI5jkA99pbJ+D01YUi8UIhAIFj1GBYBKCgz94J8tHGc7JLY9D+IipgASrHHcFqaQHYBYlCSae7rlbGjSovRKkEDogGNxudO+EP4ewBt+lni0DOMAgignnTHAvq0so0E0H6K1mFofBKHTtuPP++1RaDVymDMJz/27GTcSlFdovBjCYrfMxnlziLNDoZ/cqlkO8SVVZbLPjNB4eoCzncYUXFs2Yc6zXtFcM+jiTY/2d/0JVdqVSGbOvnhnZkNngWmW51+7Onqg7rAvKiaprGeUmHsQzXhi5npJjjnbGdfWOTO72leGqVEa/yzJjU2RvDSKNt+VvcXeqw+fc4n5Njvs/C7TRxuvIXyEUt2KC2W/XtxnUG5u5dz6FPwbHsGBZpbeQD0QPQvkARVNMuBn6W8DEJzcdqYWiDaUJy3ZsB3U9kXoj1z3P0GyN1LW/1bQomqUtWsJxQDQFyaJdQMA3mLvcuTTKoPtXqNSMYvKvLZ+rK+8yvnQh2MsnUmHeTTBXDbw2A6K72MZ7LS23df6CkCWSP1EnxWLZScQEaAvBb6xqcQ3qd8EiADAQza9OJRFBHhv+GYq5HZS89/xzuJ/mPe6b2G0ofIfnV7SfFP6Uk/cDaS307uw5eoxT1WHwFlFmscGA7UgB42WUyzGuTqxBnv0NZK2j4a8B9m+N8xPe9s+IGlYTyZcfGg9r9zue3g+FaXl8LT3XOv0C48gP/r+Sa6NpPabkeBi08iu6QsZV19sANC9e2F/epiGzN3wAJTmv+S3honWS9dvO/v/B+RBICmEFVsIAAAAAElFTkSuQmCC"
 
 def getIcon(icon):
-    if icon_mode == 'dark':
-        decoded = base64.decodebytes(str.encode(icon))
-        image = Image.open(io.BytesIO(decoded))
+    buffer = io.BytesIO()
+    decoded = base64.decodebytes(str.encode(icon))
+    image = Image.open(io.BytesIO(decoded))
+    if icon_size!=-1:
+        image = image.resize((icon_size,icon_size))
+    if icon_mode == 'dark':    
         # split LA channels
         l,a = image.split()
         inverted = ImageOps.invert(l)
         # create new
-        result_image = Image.merge('LA', (inverted,a))
-        buffer = io.BytesIO()
-        result_image.save(buffer, format='png')
-        encoded = base64.encodebytes(buffer.getvalue())
-        return encoded.decode().replace("\n", "").strip()
-    else:
-        return icon
+        image = Image.merge('LA', (inverted,a))
+    image.save(buffer, format='png', dpi=(144,144))
+    encoded = base64.encodebytes(buffer.getvalue())
+    return encoded.decode().replace("\n", "").strip()
 
 def getVolume():
     r = requests.get(moodeUrl + "/command/moode.php?cmd=readcfgsystem")
