@@ -1,6 +1,6 @@
 #!/usr/local/bin/python3
 # <bitbar.title>Moode audio player volume controller</bitbar.title>
-# <bitbar.version>v2.0</bitbar.version>
+# <bitbar.version>v3.0</bitbar.version>
 # <bitbar.author>Piotr Gołąbek</bitbar.author>
 # <bitbar.author.github>piotr277</bitbar.author.github>
 # <bitbar.desc>This plugin allows volume controlling of local running Moode audio player. For more information about Moode check this: http://moodeaudio.org/</bitbar.desc>
